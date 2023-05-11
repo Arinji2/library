@@ -1,8 +1,7 @@
 import Image from "next/image";
-import { FC } from "react";
-import AuthorSection from "./authorSection";
-import BookSection from "./bookSection";
-import GenreSection from "./genreSection";
+import AuthorSection from "./(sections)/authorSection";
+import BookSection from "./(sections)/bookSection";
+import GenreSection from "./(sections)/genreSection";
 
 export default function Home() {
   return (

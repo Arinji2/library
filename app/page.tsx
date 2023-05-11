@@ -25,7 +25,7 @@ export default function Home() {
         </p>
       </div>
       <div className="relative z-[500] flex h-fit w-full flex-col items-center justify-start bg-black">
-        <div className="sticky top-0  h-[100svh] w-full">
+        <div className="sticky top-0  h-[100vh] w-full">
           <Image
             src={"/sections.jpeg"}
             alt="Sections Image"
@@ -43,12 +43,15 @@ export default function Home() {
           <BookSection />
           <GenreSection />
         </div>
-        <div className="h-[100svh] w-full flex flex-col items-center justify-center gap-20 text-center">
-          <h3 className=" text-[50px] md:text-[80px] font-lato font-bold text-white z-40">What Are You Waiting For?</h3>
-          <h4 className=" text-[25px] md:text-[40px] font-lato font-bold text-white z-40 bg-[#E8772E] p-4">Opening at Tower 3 Soon!!</h4>
+        <div className="flex h-[100svh] w-full flex-col items-center justify-center gap-20 text-center">
+          <h3 className=" z-40 font-lato text-[50px] font-bold text-white md:text-[80px]">
+            What Are You Waiting For?
+          </h3>
+          <h4 className=" z-40 bg-[#E8772E] p-4 font-lato text-[25px] font-bold text-white md:text-[40px]">
+            Opening at Tower 3 Soon!!
+          </h4>
         </div>
       </div>
-
     </div>
   );
 }
